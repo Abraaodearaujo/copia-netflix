@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.quem-esta {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 63%;
+    transform: translate(-50%, -30%);
+}
+
+#perfis {
+    width: 99.7vw;
+    height: 99.5vh;
+}
+
+.usuario {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 50%;
+    bottom: -40%;
+    transform: translate(-240%);
+}
+
+.usuario > a > img {
+    width: 100px;
+}
+
+.usuario > p {
+    font-size: 13px;
+}
+
+#ad-perfil > a > img {
+    background-color: rgb(47, 47, 47);
+}

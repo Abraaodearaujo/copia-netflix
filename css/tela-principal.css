@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#tela-de-fundo{
+    margin: auto;
+    height: 90vh;
+    width: 99.8vw;
+    background-image: url(../img/sexeducation-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 5px 5px 60px inset;
+    position: relative;
+}
+
+.netflix-logo {
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 7px;
+    position: relative;
+}
+
+#nav-bar {
+    color: white;
+    position: relative;
+    margin-left: 50%;
+    margin-top: -43px;
+    transform: translate(-50%);
+}
+
+.itens {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+
+.itens > a {
+    color: white;
+    text-decoration: none;
+}
+
+.perfil {
+    width: 30px;
+    position: relative;
+    left: 96%;
+    bottom: 9px;
+}
+.sexeducation-png {
+    width: 400px;
+    position: relative;
+    bottom: -20%;
+}
+
+#texto {
+    position: relative;
+    width: 400px;
+    color: white;
+    left: 2.2%;
+    bottom: -24%;
+}
+
+#texto > h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#texto > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
